@@ -12,6 +12,9 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="styles/styles.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+      </style>
     <title>Frontend Mentor | Order summary card</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -22,14 +25,20 @@
   </head>
   <body>
     <div class="container">
-      <div id="container_img"></div>
-      <div>
-        Order Summary You can now listen to millions of songs, audiobooks, and
-        podcasts on any device anywhere you like!
-      </div>
+      <img id="container_img" src="/images/illustration-hero.svg"></img>
+      <div class="inner_container">
+        <h1 id="order-summary">
+          Order Summary
+        </h1>
 
-      <div>Annual Plan $59.99/year Change</div>
-      <div>Proceed to Payment Cancel Order</div>
+          <p>
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+
+        <div>Annual Plan $59.99/year Change</div>
+        <div>Proceed to Payment Cancel Order</div>
+      </div>
     </div>
     <!-- <div class="attribution">
       Challenge by
