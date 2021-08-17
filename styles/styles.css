@@ -56,3 +56,16 @@ body {
     width: 50%;
     line-height: 1.5;
 }
+#changeLink{
+font-weight: 700;
+color:hsl(244, 56%, 61%);
+text-decoration: underline;
+
+}
+#changeLink:hover{
+  font-weight: 700;
+  color:hsl(244, 56%, 61%);
+  text-decoration: none;
+  
+  }
+  
