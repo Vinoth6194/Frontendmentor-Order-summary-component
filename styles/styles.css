@@ -39,3 +39,20 @@ body {
   margin-right: 15%;
   line-height: 1.5;
 }
+#plans{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 5%;
+  border-radius: 5px;
+  line-height: 40px;
+  background-color: hsl(225, 100%, 98%);
+}
+.rates{
+  text-align: left;
+    width: 50%;
+    line-height: 1.5;
+}
