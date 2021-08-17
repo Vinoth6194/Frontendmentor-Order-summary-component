@@ -89,3 +89,14 @@ text-decoration: underline;
     transition: 0.5s;
 
   }
+
+  #cancel{
+text-decoration: none;
+font-size: 14px;
+font-weight: 900;
+color: hsl(224, 23%, 55%);
+  }
+  #cancel:hover{
+    color:black;
+    transition:0.5s;
+  }
