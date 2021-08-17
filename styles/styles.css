@@ -68,4 +68,19 @@ text-decoration: underline;
   text-decoration: none;
   
   }
-  
+  #paymentBtn{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding:15px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: none;
+    letter-spacing: 0.6px;
+    font-family: inherit;
+    font-weight: 900;
+    border-radius: 10px;
+    box-shadow: -2px 15px 15px hsl(224deg 100% 92%);
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+  }
